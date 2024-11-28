@@ -32,11 +32,11 @@ inputs:
     default: "true"
   openwrt_size:
     description: "Set the rootfs size(Unit: MiB)."
-    required: false
+    required: true
     default: ""
   builder_name:
     description: "Set OpenWrt builder signature."
-    required: false
+    required: true
     default: ""
 
 runs:
